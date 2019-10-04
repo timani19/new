@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [home.TestHomePage]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="home.TestHomePage">
+        <methods>
+          <include name="navigateToUsSection"/>
+          <include name="navigateToWorldSection"/>
+          <include name="navigateToHealthPage"/>
+          <include name="navigateToBusinessPage"/>
+          <include name="navigateToPoliticsSection"/>
+          <include name="cleanUp"/>
+          <include name="navigateToTravelPage"/>
+          <include name="navigateTovideosPage"/>
+          <include name="navigateToStylePage"/>
+          <include name="navigateToSportsPage"/>
+          <include name="setUp"/>
+          <include name="navigateToEntertainmentPage"/>
+          <include name="navigateToOpinionPage"/>
+        </methods>
+      </class> <!-- home.TestHomePage -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [home.TestHomePage] -->
